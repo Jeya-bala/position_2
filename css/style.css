@@ -1,0 +1,36 @@
+section{
+    box-shadow: 0px 0px 1px;
+    padding: 2em;
+}
+a{
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: none;
+    background-color: rgba(54, 145, 242, 0.911);
+    color: white;
+    position: relative;
+    border-radius: 5px;
+    text-decoration: none;
+    
+}
+a::after{
+    content: '99+';
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: smaller;
+    background-color: red;
+    top: -7px;
+    left: 50px;
+    /* right: -10px; */
+    position: absolute;
+    border-radius: 10px;
+    padding: 2px 1px 1px 1px;
+    height: 15px;
+    width: 30px;
+    color: white;
+
+}
+a:hover{
+    background-color: rgba(33, 33, 160, 0.473);
+    transition: all 1s ease;
+}
